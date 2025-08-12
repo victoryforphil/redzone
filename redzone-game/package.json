@@ -1,19 +1,22 @@
 {
   "name": "redzone-game",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "@types/three": "^0.174.0",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0"
+    "preview": "vite preview",
+    "tauri": "tauri"
   },
   "dependencies": {
-    "three": "^0.174.0"
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3"
   }
 }
