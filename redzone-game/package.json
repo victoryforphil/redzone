@@ -14,6 +14,8 @@
     "vite": "^6.2.0"
   },
   "dependencies": {
-    "three": "^0.174.0"
+    "@mapbox/mapbox-sdk": "^0.16.1",
+    "three": "^0.174.0",
+    "threebox-plugin": "^2.2.7"
   }
 }
